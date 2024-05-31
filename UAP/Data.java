@@ -23,13 +23,6 @@ public class Data {
                 Data.tanaman.get(i).berkembang();
         } else if (Data.lokasi.contains(i)){
             continue;
-            } else{
-                Class tanamanMati = Data.tanaman.get(i).getClass();
-                String nama = tanamanMati.getSimpleName();
-                System.out.println("Tanaman " + nama + " sudah mati");
-                Data.lokasi.add(i);
-                menanam();
-            } 
         }
     } 
     
